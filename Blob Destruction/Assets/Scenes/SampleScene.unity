@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 74808743}
   - component: {fileID: 74808741}
   - component: {fileID: 74808742}
+  - component: {fileID: 74808747}
   m_Layer: 7
   m_Name: Sphere (29)
   m_TagString: Untagged
@@ -164,7 +165,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &74808742
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -256,6 +257,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &74808747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74808740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87165101
 GameObject:
   m_ObjectHideFlags: 0
@@ -270,6 +283,7 @@ GameObject:
   - component: {fileID: 87165104}
   - component: {fileID: 87165102}
   - component: {fileID: 87165103}
+  - component: {fileID: 87165108}
   m_Layer: 7
   m_Name: Sphere (10)
   m_TagString: Untagged
@@ -292,7 +306,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &87165103
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -384,6 +398,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87165108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87165101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132064863
 GameObject:
   m_ObjectHideFlags: 0
@@ -398,6 +424,7 @@ GameObject:
   - component: {fileID: 132064867}
   - component: {fileID: 132064866}
   - component: {fileID: 132064865}
+  - component: {fileID: 132064870}
   m_Layer: 7
   m_Name: Sphere (32)
   m_TagString: Untagged
@@ -449,7 +476,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &132064867
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -512,6 +539,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 132064863}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &132064870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132064863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &136902832
 GameObject:
   m_ObjectHideFlags: 0
@@ -526,6 +565,7 @@ GameObject:
   - component: {fileID: 136902835}
   - component: {fileID: 136902833}
   - component: {fileID: 136902834}
+  - component: {fileID: 136902839}
   m_Layer: 7
   m_Name: Sphere (4)
   m_TagString: Untagged
@@ -548,7 +588,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &136902834
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -640,6 +680,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &136902839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136902832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &171010282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -826,6 +878,7 @@ GameObject:
   - component: {fileID: 238738798}
   - component: {fileID: 238738797}
   - component: {fileID: 238738796}
+  - component: {fileID: 238738801}
   m_Layer: 7
   m_Name: Sphere (36)
   m_TagString: Untagged
@@ -877,7 +930,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &238738798
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -940,6 +993,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 238738794}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &238738801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238738794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &240140054
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,6 +1019,7 @@ GameObject:
   - component: {fileID: 240140058}
   - component: {fileID: 240140057}
   - component: {fileID: 240140056}
+  - component: {fileID: 240140061}
   m_Layer: 7
   m_Name: Sphere (38)
   m_TagString: Untagged
@@ -1005,7 +1071,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &240140058
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1068,6 +1134,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240140054}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &240140061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240140054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &275284459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1163,6 +1241,7 @@ GameObject:
   - component: {fileID: 283914629}
   - component: {fileID: 283914627}
   - component: {fileID: 283914628}
+  - component: {fileID: 283914633}
   m_Layer: 7
   m_Name: Sphere
   m_TagString: Untagged
@@ -1185,7 +1264,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &283914628
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1277,6 +1356,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &283914633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283914626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &293566868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1382,7 @@ GameObject:
   - component: {fileID: 293566871}
   - component: {fileID: 293566869}
   - component: {fileID: 293566870}
+  - component: {fileID: 293566875}
   m_Layer: 7
   m_Name: Sphere (11)
   m_TagString: Untagged
@@ -1313,7 +1405,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &293566870
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1405,6 +1497,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293566875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293566868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &296579230 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16c830d2153d6f14f9ce814035c05740, type: 3}
@@ -1424,6 +1528,7 @@ GameObject:
   - component: {fileID: 332165121}
   - component: {fileID: 332165120}
   - component: {fileID: 332165119}
+  - component: {fileID: 332165124}
   m_Layer: 7
   m_Name: Sphere (40)
   m_TagString: Untagged
@@ -1475,7 +1580,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &332165121
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1538,6 +1643,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 332165117}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &332165124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 332165117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &343508783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,6 +1669,7 @@ GameObject:
   - component: {fileID: 343508786}
   - component: {fileID: 343508784}
   - component: {fileID: 343508785}
+  - component: {fileID: 343508790}
   m_Layer: 7
   m_Name: Center
   m_TagString: Untagged
@@ -1574,7 +1692,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 112
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &343508785
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1666,6 +1784,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &343508790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343508783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &366329515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1680,6 +1810,7 @@ GameObject:
   - component: {fileID: 366329519}
   - component: {fileID: 366329518}
   - component: {fileID: 366329517}
+  - component: {fileID: 366329522}
   m_Layer: 7
   m_Name: Sphere (33)
   m_TagString: Untagged
@@ -1731,7 +1862,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &366329519
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1794,6 +1925,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 366329515}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &366329522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366329515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &391603405
 GameObject:
   m_ObjectHideFlags: 0
@@ -1838,6 +1981,7 @@ GameObject:
   - component: {fileID: 402718573}
   - component: {fileID: 402718571}
   - component: {fileID: 402718572}
+  - component: {fileID: 402718577}
   m_Layer: 7
   m_Name: Sphere (9)
   m_TagString: Untagged
@@ -1860,7 +2004,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &402718572
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -1952,6 +2096,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &402718577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402718570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &420087256 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 317fdcad57a6cd54bb24fa2b05d7c961, type: 3}
@@ -1976,6 +2132,7 @@ GameObject:
   - component: {fileID: 441595781}
   - component: {fileID: 441595780}
   - component: {fileID: 441595779}
+  - component: {fileID: 441595784}
   m_Layer: 7
   m_Name: Sphere (42)
   m_TagString: Untagged
@@ -2027,7 +2184,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &441595781
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2090,6 +2247,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 441595777}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &441595784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441595777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &457812998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2273,7 @@ GameObject:
   - component: {fileID: 457813001}
   - component: {fileID: 457812999}
   - component: {fileID: 457813000}
+  - component: {fileID: 457813005}
   m_Layer: 7
   m_Name: Sphere (7)
   m_TagString: Untagged
@@ -2126,7 +2296,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &457813000
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2218,6 +2388,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &457813005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457812998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &471484968
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2414,7 @@ GameObject:
   - component: {fileID: 471484972}
   - component: {fileID: 471484971}
   - component: {fileID: 471484970}
+  - component: {fileID: 471484975}
   m_Layer: 7
   m_Name: Sphere (50)
   m_TagString: Untagged
@@ -2283,7 +2466,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &471484972
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2346,6 +2529,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471484968}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &471484975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471484968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &486745796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2555,7 @@ GameObject:
   - component: {fileID: 486745799}
   - component: {fileID: 486745797}
   - component: {fileID: 486745798}
+  - component: {fileID: 486745803}
   m_Layer: 7
   m_Name: Sphere (24)
   m_TagString: Untagged
@@ -2382,7 +2578,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &486745798
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2474,6 +2670,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &486745803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486745796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &496855614
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2811,6 +3019,7 @@ GameObject:
   - component: {fileID: 515883862}
   - component: {fileID: 515883860}
   - component: {fileID: 515883861}
+  - component: {fileID: 515883866}
   m_Layer: 7
   m_Name: Sphere (6)
   m_TagString: Untagged
@@ -2833,7 +3042,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &515883861
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -2925,6 +3134,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &515883866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515883859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &598022299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,6 +3160,7 @@ GameObject:
   - component: {fileID: 598022302}
   - component: {fileID: 598022300}
   - component: {fileID: 598022301}
+  - component: {fileID: 598022306}
   m_Layer: 7
   m_Name: Sphere (3)
   m_TagString: Untagged
@@ -2961,7 +3183,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &598022301
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3053,6 +3275,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &598022306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598022299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600071223
 GameObject:
   m_ObjectHideFlags: 0
@@ -3067,6 +3301,7 @@ GameObject:
   - component: {fileID: 600071226}
   - component: {fileID: 600071224}
   - component: {fileID: 600071225}
+  - component: {fileID: 600071230}
   m_Layer: 7
   m_Name: Sphere (5)
   m_TagString: Untagged
@@ -3089,7 +3324,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &600071225
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3181,6 +3416,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &600071230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600071223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &600404172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,6 +3537,7 @@ GameObject:
   - component: {fileID: 628102176}
   - component: {fileID: 628102174}
   - component: {fileID: 628102175}
+  - component: {fileID: 628102180}
   m_Layer: 7
   m_Name: Sphere (22)
   m_TagString: Untagged
@@ -3312,7 +3560,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &628102175
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -3404,6 +3652,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &628102180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628102173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &634884209
 GameObject:
   m_ObjectHideFlags: 0
@@ -3418,6 +3678,7 @@ GameObject:
   - component: {fileID: 634884213}
   - component: {fileID: 634884212}
   - component: {fileID: 634884211}
+  - component: {fileID: 634884216}
   m_Layer: 7
   m_Name: Sphere (35)
   m_TagString: Untagged
@@ -3469,7 +3730,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &634884213
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3532,6 +3793,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 634884209}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &634884216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634884209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &688444291
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3959,7 @@ GameObject:
   - component: {fileID: 769806822}
   - component: {fileID: 769806821}
   - component: {fileID: 769806820}
+  - component: {fileID: 769806825}
   m_Layer: 7
   m_Name: Sphere (46)
   m_TagString: Untagged
@@ -3737,7 +4011,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &769806822
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3800,6 +4074,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 769806818}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &769806825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769806818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &779993466
 GameObject:
   m_ObjectHideFlags: 0
@@ -3814,6 +4100,7 @@ GameObject:
   - component: {fileID: 779993470}
   - component: {fileID: 779993469}
   - component: {fileID: 779993468}
+  - component: {fileID: 779993473}
   m_Layer: 7
   m_Name: Sphere (34)
   m_TagString: Untagged
@@ -3865,7 +4152,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &779993470
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3928,6 +4215,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779993466}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &779993473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779993466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &829472473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4027,6 +4326,7 @@ GameObject:
   - component: {fileID: 881653753}
   - component: {fileID: 881653752}
   - component: {fileID: 881653751}
+  - component: {fileID: 881653756}
   m_Layer: 7
   m_Name: Sphere (43)
   m_TagString: Untagged
@@ -4078,7 +4378,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &881653753
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4141,6 +4441,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 881653749}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &881653756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881653749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &890143482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4155,6 +4467,7 @@ GameObject:
   - component: {fileID: 890143486}
   - component: {fileID: 890143485}
   - component: {fileID: 890143484}
+  - component: {fileID: 890143489}
   m_Layer: 7
   m_Name: Sphere (48)
   m_TagString: Untagged
@@ -4206,7 +4519,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &890143486
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4269,6 +4582,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890143482}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &890143489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890143482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &908266817
 GameObject:
   m_ObjectHideFlags: 0
@@ -4283,6 +4608,7 @@ GameObject:
   - component: {fileID: 908266820}
   - component: {fileID: 908266818}
   - component: {fileID: 908266819}
+  - component: {fileID: 908266824}
   m_Layer: 7
   m_Name: Sphere (14)
   m_TagString: Untagged
@@ -4305,7 +4631,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &908266819
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4397,6 +4723,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &908266824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908266817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &919854877
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,6 +4749,7 @@ GameObject:
   - component: {fileID: 919854880}
   - component: {fileID: 919854878}
   - component: {fileID: 919854879}
+  - component: {fileID: 919854884}
   m_Layer: 7
   m_Name: Sphere (30)
   m_TagString: Untagged
@@ -4433,7 +4772,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &919854879
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4525,6 +4864,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &919854884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919854877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -4655,6 +5006,7 @@ GameObject:
   - component: {fileID: 982586886}
   - component: {fileID: 982586884}
   - component: {fileID: 982586885}
+  - component: {fileID: 982586890}
   m_Layer: 7
   m_Name: Sphere (8)
   m_TagString: Untagged
@@ -4677,7 +5029,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &982586885
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -4769,6 +5121,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &982586890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982586883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1011549628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4968,6 +5332,7 @@ GameObject:
   - component: {fileID: 1040071637}
   - component: {fileID: 1040071635}
   - component: {fileID: 1040071636}
+  - component: {fileID: 1040071641}
   m_Layer: 7
   m_Name: Sphere (23)
   m_TagString: Untagged
@@ -4990,7 +5355,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1040071636
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5082,6 +5447,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1040071641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040071634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1134604277
 GameObject:
   m_ObjectHideFlags: 0
@@ -5096,6 +5473,7 @@ GameObject:
   - component: {fileID: 1134604281}
   - component: {fileID: 1134604280}
   - component: {fileID: 1134604279}
+  - component: {fileID: 1134604284}
   m_Layer: 7
   m_Name: Sphere (39)
   m_TagString: Untagged
@@ -5147,7 +5525,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1134604281
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5210,6 +5588,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1134604277}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1134604284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134604277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1136583650
 GameObject:
   m_ObjectHideFlags: 0
@@ -5224,6 +5614,7 @@ GameObject:
   - component: {fileID: 1136583653}
   - component: {fileID: 1136583651}
   - component: {fileID: 1136583652}
+  - component: {fileID: 1136583657}
   m_Layer: 7
   m_Name: Sphere (21)
   m_TagString: Untagged
@@ -5246,7 +5637,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1136583652
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5338,6 +5729,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1136583657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136583650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1230008306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5429,6 +5832,7 @@ GameObject:
   - component: {fileID: 1240560738}
   - component: {fileID: 1240560737}
   - component: {fileID: 1240560736}
+  - component: {fileID: 1240560741}
   m_Layer: 7
   m_Name: Sphere (47)
   m_TagString: Untagged
@@ -5480,7 +5884,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1240560738
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -5543,6 +5947,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1240560734}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1240560741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1240560734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1247114513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5642,6 +6058,7 @@ GameObject:
   - component: {fileID: 1268305432}
   - component: {fileID: 1268305430}
   - component: {fileID: 1268305431}
+  - component: {fileID: 1268305436}
   m_Layer: 7
   m_Name: Sphere (1)
   m_TagString: Untagged
@@ -5664,7 +6081,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1268305431
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5756,6 +6173,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268305436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268305429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1270478982 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 317fdcad57a6cd54bb24fa2b05d7c961, type: 3}
@@ -5775,6 +6204,7 @@ GameObject:
   - component: {fileID: 1312657396}
   - component: {fileID: 1312657394}
   - component: {fileID: 1312657395}
+  - component: {fileID: 1312657400}
   m_Layer: 7
   m_Name: Sphere (20)
   m_TagString: Untagged
@@ -5797,7 +6227,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1312657395
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -5889,6 +6319,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1312657400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312657393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1334530695 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 317fdcad57a6cd54bb24fa2b05d7c961, type: 3}
@@ -5926,6 +6368,7 @@ GameObject:
   - component: {fileID: 1408499300}
   - component: {fileID: 1408499298}
   - component: {fileID: 1408499299}
+  - component: {fileID: 1408499304}
   m_Layer: 7
   m_Name: Sphere (27)
   m_TagString: Untagged
@@ -5948,7 +6391,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1408499299
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6040,6 +6483,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1408499304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408499297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1412846618
 GameObject:
   m_ObjectHideFlags: 0
@@ -6054,6 +6509,7 @@ GameObject:
   - component: {fileID: 1412846621}
   - component: {fileID: 1412846619}
   - component: {fileID: 1412846620}
+  - component: {fileID: 1412846625}
   m_Layer: 7
   m_Name: Sphere (16)
   m_TagString: Untagged
@@ -6076,7 +6532,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1412846620
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -6168,6 +6624,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412846625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412846618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1443019369 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 72d03613e649f8e46a8d35c1a3efdf32, type: 3}
@@ -7118,6 +7586,7 @@ GameObject:
   - component: {fileID: 1676434314}
   - component: {fileID: 1676434312}
   - component: {fileID: 1676434313}
+  - component: {fileID: 1676434318}
   m_Layer: 7
   m_Name: Sphere (13)
   m_TagString: Untagged
@@ -7140,7 +7609,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1676434313
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7232,6 +7701,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1676434318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676434311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1686868232
 GameObject:
   m_ObjectHideFlags: 0
@@ -7246,6 +7727,7 @@ GameObject:
   - component: {fileID: 1686868235}
   - component: {fileID: 1686868233}
   - component: {fileID: 1686868234}
+  - component: {fileID: 1686868239}
   m_Layer: 7
   m_Name: Sphere (25)
   m_TagString: Untagged
@@ -7268,7 +7750,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1686868234
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7360,6 +7842,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1686868239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686868232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1697868553 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16c830d2153d6f14f9ce814035c05740, type: 3}
@@ -7379,6 +7873,7 @@ GameObject:
   - component: {fileID: 1708507937}
   - component: {fileID: 1708507935}
   - component: {fileID: 1708507936}
+  - component: {fileID: 1708507941}
   m_Layer: 7
   m_Name: Sphere (28)
   m_TagString: Untagged
@@ -7401,7 +7896,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1708507936
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7493,6 +7988,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1708507941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708507934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1708643472
 GameObject:
   m_ObjectHideFlags: 0
@@ -7667,6 +8174,7 @@ GameObject:
   - component: {fileID: 1722660467}
   - component: {fileID: 1722660465}
   - component: {fileID: 1722660466}
+  - component: {fileID: 1722660471}
   m_Layer: 7
   m_Name: Sphere (19)
   m_TagString: Untagged
@@ -7689,7 +8197,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1722660466
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -7781,6 +8289,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722660471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722660464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1771811039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7914,6 +8434,7 @@ GameObject:
   - component: {fileID: 1790457221}
   - component: {fileID: 1790457220}
   - component: {fileID: 1790457219}
+  - component: {fileID: 1790457224}
   m_Layer: 7
   m_Name: Sphere (41)
   m_TagString: Untagged
@@ -7965,7 +8486,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1790457221
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8028,6 +8549,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790457217}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1790457224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790457217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1792584539
 GameObject:
   m_ObjectHideFlags: 0
@@ -8042,6 +8575,7 @@ GameObject:
   - component: {fileID: 1792584542}
   - component: {fileID: 1792584540}
   - component: {fileID: 1792584541}
+  - component: {fileID: 1792584546}
   m_Layer: 7
   m_Name: Sphere (18)
   m_TagString: Untagged
@@ -8064,7 +8598,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1792584541
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8156,6 +8690,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1792584546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792584539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1809550454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b0cd271876896334d8ed160f2a376e8c, type: 3}
@@ -8175,6 +8721,7 @@ GameObject:
   - component: {fileID: 1814614465}
   - component: {fileID: 1814614464}
   - component: {fileID: 1814614463}
+  - component: {fileID: 1814614468}
   m_Layer: 7
   m_Name: Sphere (49)
   m_TagString: Untagged
@@ -8226,7 +8773,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1814614465
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8289,6 +8836,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814614461}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1814614468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814614461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1823940291
 GameObject:
   m_ObjectHideFlags: 0
@@ -8303,6 +8862,7 @@ GameObject:
   - component: {fileID: 1823940294}
   - component: {fileID: 1823940292}
   - component: {fileID: 1823940293}
+  - component: {fileID: 1823940298}
   m_Layer: 7
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -8325,7 +8885,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1823940293
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -8417,6 +8977,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1823940298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1823940291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1854059081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8601,6 +9173,7 @@ GameObject:
   - component: {fileID: 1915425304}
   - component: {fileID: 1915425303}
   - component: {fileID: 1915425302}
+  - component: {fileID: 1915425308}
   m_Layer: 7
   m_Name: Sphere (12)
   m_TagString: Untagged
@@ -8638,7 +9211,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1915425304
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8715,6 +9288,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915425308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915425301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1922692739
 GameObject:
   m_ObjectHideFlags: 0
@@ -8729,6 +9314,7 @@ GameObject:
   - component: {fileID: 1922692743}
   - component: {fileID: 1922692742}
   - component: {fileID: 1922692741}
+  - component: {fileID: 1922692746}
   m_Layer: 7
   m_Name: Sphere (37)
   m_TagString: Untagged
@@ -8780,7 +9366,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1922692743
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8843,6 +9429,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922692739}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1922692746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1922692739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1924213336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9016,6 +9614,7 @@ GameObject:
   - component: {fileID: 1955496005}
   - component: {fileID: 1955496004}
   - component: {fileID: 1955496003}
+  - component: {fileID: 1955496008}
   m_Layer: 7
   m_Name: Sphere (31)
   m_TagString: Untagged
@@ -9067,7 +9666,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &1955496005
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9130,6 +9729,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955496001}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1955496008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955496001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1955694158
 GameObject:
   m_ObjectHideFlags: 0
@@ -9144,6 +9755,7 @@ GameObject:
   - component: {fileID: 1955694161}
   - component: {fileID: 1955694159}
   - component: {fileID: 1955694160}
+  - component: {fileID: 1955694165}
   m_Layer: 7
   m_Name: Sphere (17)
   m_TagString: Untagged
@@ -9166,7 +9778,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1955694160
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9258,6 +9870,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955694165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955694158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1983668465
 GameObject:
   m_ObjectHideFlags: 0
@@ -9272,6 +9896,7 @@ GameObject:
   - component: {fileID: 1983668468}
   - component: {fileID: 1983668466}
   - component: {fileID: 1983668467}
+  - component: {fileID: 1983668472}
   m_Layer: 7
   m_Name: Sphere (15)
   m_TagString: Untagged
@@ -9294,7 +9919,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!138 &1983668467
 FixedJoint:
   m_ObjectHideFlags: 0
@@ -9386,6 +10011,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983668472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983668465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2011519584
 GameObject:
   m_ObjectHideFlags: 0
@@ -9482,6 +10119,7 @@ GameObject:
   - component: {fileID: 2027340770}
   - component: {fileID: 2027340769}
   - component: {fileID: 2027340768}
+  - component: {fileID: 2027340773}
   m_Layer: 7
   m_Name: Sphere (44)
   m_TagString: Untagged
@@ -9533,7 +10171,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &2027340770
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9596,6 +10234,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2027340766}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2027340773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027340766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2028939377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16c830d2153d6f14f9ce814035c05740, type: 3}
@@ -9615,6 +10265,7 @@ GameObject:
   - component: {fileID: 2075952092}
   - component: {fileID: 2075952091}
   - component: {fileID: 2075952090}
+  - component: {fileID: 2075952095}
   m_Layer: 7
   m_Name: Sphere (45)
   m_TagString: Untagged
@@ -9666,7 +10317,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &2075952092
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9729,6 +10380,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2075952088}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2075952095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075952088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2118743845
 GameObject:
   m_ObjectHideFlags: 0
@@ -9743,6 +10406,7 @@ GameObject:
   - component: {fileID: 2118743848}
   - component: {fileID: 2118743847}
   - component: {fileID: 2118743846}
+  - component: {fileID: 2118743852}
   m_Layer: 7
   m_Name: Sphere (26)
   m_TagString: Untagged
@@ -9780,7 +10444,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
-  m_CollisionDetection: 3
+  m_CollisionDetection: 1
 --- !u!135 &2118743848
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -9857,6 +10521,18 @@ Transform:
   m_Father: {fileID: 1603992720}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2118743852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118743845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d502a5090a8725458b16dfe0b11b4a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &212517836221405606
 Transform:
   m_ObjectHideFlags: 0
